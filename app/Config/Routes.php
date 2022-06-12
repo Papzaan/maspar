@@ -44,7 +44,7 @@ $routes->get('/data_pemilih', 'Grafis::data');
 $routes->get('/tambah_ormas', 'Ormas::tambah');
 $routes->get('/tambah_parpol', 'Parpol::tambah');
 $routes->get('/save_parpol', 'Parpol::save');
-$routes->get('/login', 'Login::index');
+//$routes->get('/login', 'Login::index');
 
 
 $routes->get('/auth/login', 'Auth::login');
